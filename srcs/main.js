@@ -22,7 +22,6 @@ function initAudio() { //initialize the audio when it all starts
 	}
 	console.log("Loaded!");
 }
-initAudio(); //initialize all audio to play
 
 function playNote(i) { //play those notes for me or die xd
 	note[i].play();
@@ -96,6 +95,7 @@ function checkIf(){ //checksIf mouse event happened and begins the path
 }
 
 function strt() { //start
+	initAudio(); //initialize all audio to play
 	intrvl = setInterval(writ,1000); //set the interval
 }
 function strtDrawing() { //start drawing squares and then auto remove them with clearRect() method
@@ -104,6 +104,7 @@ function strtDrawing() { //start drawing squares and then auto remove them with 
 		x = Math.floor(Math.random()*c.width);
 		y =	Math.floor(Math.random()*c.height);
 		r = Math.floor(Math.random()*12);
+		s = Math.floor(Math.random()*16);
 		s = Math.floor(Math.random()*16);
 		if (intr > 200) {
 			intr -= 10;
