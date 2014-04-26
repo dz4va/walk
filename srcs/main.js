@@ -103,7 +103,7 @@ function strtDrawing() { //start drawing squares and then auto remove them with 
 		x = Math.floor(Math.random()*c.width);
 		y =	Math.floor(Math.random()*c.height);
 		r = Math.floor(Math.random()*16);
-		if (intr > 216) {
+		if (intr > 200) {
 			intr -= 2;
 		}
 		if (intr == 220) {
