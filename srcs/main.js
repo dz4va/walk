@@ -9,7 +9,7 @@ var note = []; //notes array
 /*var w = 5; //width of the rectangle
 var h = 5; //height of the rectangle*/
 var r = 0; //radius of the circle
-var x,y,intr = 2000,intrs = 500; //{x;y} coordinates with interval used in start()
+var x,y,intr = 2000,intrs = 300; //{x;y} coordinates with interval used in start()
 var color; // color of my squares
 var intrvl; //intrvlthat's going to be cleared
 var clicked = false;
@@ -63,7 +63,7 @@ function clrStart() { //this needs modifying ^ ^ to work on Mouse X and Mouse Y
 		var x = Math.floor(Math.random()*c.width);
 		var y =	Math.floor(Math.random()*c.height);
 		console.log("Clearing at [" + x + "] [" + y + "] | speed = " + intrs);
-		clr(x,y,8,8);
+		clr(x,y,5,5);
 	}, intrs);
 }
 
