@@ -23,7 +23,8 @@ function initAudio() { //initialize the audio when it all starts
 	console.log("Loaded!");
 }
 
-function playNote(i) { //play those notes for me or die xd
+function playNote() { //play those notes for me or die xd
+    var i = Math.floor(Math.random()*16);
 	note[i].play();
 	console.log("# of Track: " + i);	
 }
@@ -99,13 +100,10 @@ function strt() { //start
 	intrvl = setInterval(writ,1000); //set the interval
 }
 function strtDrawing() { //start drawing squares and then auto remove them with clearRect() method
-	var s;
 	setInterval(function () { //main drawing interval
 		x = Math.floor(Math.random()*c.width);
 		y =	Math.floor(Math.random()*c.height);
 		r = Math.floor(Math.random()*12);
-		s = Math.floor(Math.random()*16);
-		s = Math.floor(Math.random()*16);
 		if (intr > 200) {
 			intr -= 10;
 		}
@@ -114,7 +112,7 @@ function strtDrawing() { //start drawing squares and then auto remove them with 
 		}
 		console.log("Generating at [" + x + "] [" + y + "] | speed = " + intr + " | Color = " + "#" + color);
 		drwCirc(x,y,colorGen(),r); //draw squares
-		playNote(s); //call note
+		playNote(); //call note
 	}, intr);
 }
 
