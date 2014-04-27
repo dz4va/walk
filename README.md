@@ -9,7 +9,7 @@ There is a color code generator inside the javascript file but at this time work
 There is also intro color changer and other I think interesting stuff for the first practice project.
 I'm self tought in this kind of programming(HTML5/CSS/Javascript).
 <br>If you'd like to ask what does this all mean, I have an Answer for you:<br> 
-&nbsp;&nbsp;&nbsp;At some point everyhthing erases itself and you can wait for that moment, though I think this all can go forever.
+&nbsp;&nbsp;&nbsp;At some point something happens and you can wait for that moment, though I think this all can go forever.
 
 Thanks for checking my first project out!
 
