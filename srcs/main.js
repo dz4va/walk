@@ -108,7 +108,7 @@ function strtDrawing() { //start drawing squares and then auto remove them with 
 		if (intr > 50) {
 			intr -= r;
 		}
-		if (intr > 200 && < 220) {
+		if (intr > 200 && intr < 220) {
 			clrStart();
 		}
 		console.log("Generating at [" + x + "] [" + y + "] | speed = " + intr + " | Color = " + "#" + color);
