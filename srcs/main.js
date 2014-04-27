@@ -9,7 +9,7 @@ var note = []; //notes array
 /*var w = 5; //width of the rectangle
 var h = 5; //height of the rectangle*/
 var r = 0; //radius of the circle
-var x,y,intr = 1500,intrs = 200; //{x;y} coordinates with interval used in start()
+var x,y,intr = 1500,intrs = 100; //{x;y} coordinates
 var color; // color of my squares
 var intrvl; //intrvlthat's going to be cleared
 var clicked = false;
@@ -105,10 +105,10 @@ function strtDrawing() { //start drawing squares and then auto remove them with 
 		x = Math.floor(Math.random()*c.width);
 		y =	Math.floor(Math.random()*c.height);
 		r = Math.floor(Math.random()*12);
-		if (intr > 100) {
+		if (intr > 50) {
 			intr -= r;
 		}
-		if (intr == 220) {
+		if (intr > 200 && < 220) {
 			clrStart();
 		}
 		console.log("Generating at [" + x + "] [" + y + "] | speed = " + intr + " | Color = " + "#" + color);
