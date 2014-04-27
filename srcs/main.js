@@ -9,7 +9,7 @@ var note = []; //notes array
 /*var w = 5; //width of the rectangle
 var h = 5; //height of the rectangle*/
 var r = 0; //radius of the circle
-var x,y,intr = 2000,intrs = 300; //{x;y} coordinates with interval used in start()
+var x,y,intr = 1500,intrs = 200; //{x;y} coordinates with interval used in start()
 var color; // color of my squares
 var intrvl; //intrvlthat's going to be cleared
 var clicked = false;
@@ -99,13 +99,14 @@ function strt() { //start
 	initAudio(); //initialize all audio to play
 	intrvl = setInterval(writ,1000); //set the interval
 }
+
 function strtDrawing() { //start drawing squares and then auto remove them with clearRect() method
 	setInterval(function () { //main drawing interval
 		x = Math.floor(Math.random()*c.width);
 		y =	Math.floor(Math.random()*c.height);
 		r = Math.floor(Math.random()*12);
-		if (intr > 200) {
-			intr -= 10;
+		if (intr > 100) {
+			intr -= r;
 		}
 		if (intr == 220) {
 			clrStart();
