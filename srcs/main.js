@@ -63,7 +63,7 @@ function clrStart() { //this needs modifying ^ ^ to work on Mouse X and Mouse Y
 		var x = Math.floor(Math.random()*c.width);
 		var y =	Math.floor(Math.random()*c.height);
 		console.log("Clearing at [" + x + "] [" + y + "] | speed = " + intrs);
-		clr(x,y,5,5);
+		clr(x,y,3,3);
 	}, intrs);
 }
 
