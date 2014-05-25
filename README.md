@@ -17,6 +17,6 @@ Wish You A Flawless Bugless Coding!
 
 Irongeorge 2014.
 
-<script data-gittip-username="irongeorge"
-        data-gittip-widget="button"
-        src="//gttp.co/v1.js"></script>
+
+
+I'm first year ICT student, maybe give me a <a href="https://www.gittip.com/irongeorge/" style="text-decoration:none; color:#C97118"><b>tip</b></a>?
