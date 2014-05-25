@@ -19,4 +19,4 @@ Irongeorge 2014.
 
 
 
-I'm first year ICT student, maybe give me a <a href="https://www.gittip.com/irongeorge/" style="text-decoration:none; color:#C97118"><b>tip</b></a>?
+I'm first year ICT student, maybe give me a <a href="https://www.gittip.com/irongeorge/" style="text-decoration:none" target="_blank"><b>tip</b></a>?
