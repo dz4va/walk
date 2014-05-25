@@ -16,3 +16,7 @@ Thanks for checking my first project out!
 Wish You A Flawless Bugless Coding!
 
 Irongeorge 2014.
+
+<script data-gittip-username="irongeorge"
+        data-gittip-widget="button"
+        src="//gttp.co/v1.js"></script>
