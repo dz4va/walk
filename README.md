@@ -16,7 +16,3 @@ Thanks for checking my first project out!
 Wish You A Flawless Bugless Coding!
 
 Irongeorge 2014.
-
-
-
-Maybe you want to <a href="https://www.gittip.com/irongeorge/" style="text-decoration:none" target="_blank"><b>reward</b></a> me?
