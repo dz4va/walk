@@ -1,4 +1,4 @@
-THIS IS AN OLD PROJECT, CONSIDER NOT LOOKING AT THIS.<br/><br/><br/>
+Please consider not looking at this project. It's pretty old.<br/><br/><br/>
 
 
 Walk!
